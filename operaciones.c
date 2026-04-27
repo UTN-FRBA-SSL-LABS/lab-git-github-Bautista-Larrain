@@ -2,7 +2,9 @@
 
 /* ── sumar — ya implementada, referencia de estilo ───────────────────────── */
 
-int sumar(int a, int b) {
+/*Se agregaron const a los parametros enteros de funcion 
+sumar ya que estos no se modifican a lo largo de la funcion*/
+int sumar(const int a, const int b) {
     return a + b;
 }
 
